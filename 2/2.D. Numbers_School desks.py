@@ -17,8 +17,8 @@ Example output
 32
 
 """
-a = input()
-b = input()
-c = input()
-x = int(a/2) + int(a%2)
+a = int(input())
+b = int(input())
+c = int(input())
+
 print(int(a/2) + int(a%2)+int(b/2) + int(b%2)+int(c/2) + int(c%2))

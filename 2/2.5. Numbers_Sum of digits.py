@@ -1,12 +1,8 @@
-a = 123
+a = int(input())
 
-z = int(a%10) #3rd
-y = int((a%100)/10) #2nd
 x = int(a/100) #1st 
+y = int((a%100)/10) #2nd
+z = int(a%10) #3rd
 
+print(x+y+z)
 
-
-
-print(x)
-print(y)
-print(z)

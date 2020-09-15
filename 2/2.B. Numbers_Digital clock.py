@@ -19,5 +19,4 @@ hour = int(mins/60)
 
 minute = int(mins-(hour*60))
 
-print(hour)
-print(minute)
+print(str(hour)+" "+str(minute))

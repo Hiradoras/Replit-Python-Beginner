@@ -10,10 +10,4 @@ Example output
 """
 day = int(input())
 
-month = int(day/30)
-
-week = int((day-30)/7)
-
-starting_date = 4
-
-print(starting_date+week)
+print((day+3)%7)
